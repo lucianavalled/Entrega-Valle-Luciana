@@ -38,6 +38,9 @@ body{
 .logo a:hover{
   color: #777;
 }
+.logo:hover{
+    transform: translate(200px)
+}
 .texto-principal{
 
     background-image: url(./img/aula9.jpg);
@@ -177,6 +180,17 @@ textarea{
 #boton:hover{
     color: #777;
   }
+  .galeria:hover{
+    animation:foto 3s;
+ }
+ @keyframes foto{
+     0%{
+         transform: scale(1.4);
+     }
+    25%{
+          transform:translateY(50px);
+      }   
+     }
 
 .actividades{
     text-align: center;
